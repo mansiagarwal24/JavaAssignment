@@ -1,3 +1,12 @@
+/*
+    Implement a banking system using java. Create 3 sub class of Bank : SBI,BOI,ICICI
+    Classes should have attributes like Name, headofficeAddress, chairmanName, branchCount, fdInterestRate, personalLoanInterestRate, homeLoanInterestRate. All 3 should have following methods:
+
+    add getters and setters for the fields
+    print details of every bank (override toString)
+
+ */
+
 package JavaAssignment2;
 public class BankMain {
     public static void main(String[] args)

@@ -1,4 +1,6 @@
-
+/*
+    Create a custom exception that do not have any stack trace.
+ */
 package JavaAssignment2;
 
 public class CustomException {

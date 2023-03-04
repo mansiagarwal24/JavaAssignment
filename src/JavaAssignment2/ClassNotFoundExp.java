@@ -1,3 +1,7 @@
+/*
+    WAP to produce NoClassDefFoundError and ClassNotFoundException exception.
+ */
+
 package JavaAssignment2;
 
 class Excption{
