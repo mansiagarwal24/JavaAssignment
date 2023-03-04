@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c72b6b1c-f66b-4408-9a4c-c97ae4001c9c" name="Changes" comment="">
+    <list default="true" id="c72b6b1c-f66b-4408-9a4c-c97ae4001c9c" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionAssignment/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionAssignment/EmployeeHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionAssignment/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionAssignment/SortByNameSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionAssignment/SpecialStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment2/BOI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment2/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment2/BankMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment2/ClassNotFoundExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment2/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment2/ICICI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment2/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment2/SBI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment2/TryCatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaAssignment1/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment1/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaAssignment1/JavaQ1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment1/JavaQ1.java" afterDir="false" />
@@ -25,7 +40,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="69282dc3-7094-428a-bf2e-61a2833a305f" />
+        <option name="url" value="https://github.com/mansiagarwal24/JavaAssignment.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,7 +75,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
+    ]
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -53,6 +94,29 @@
       <option name="presentableId" value="Default" />
       <updated>1677643297618</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1677655166554</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677655166554</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

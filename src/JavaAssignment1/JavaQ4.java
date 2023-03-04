@@ -1,3 +1,11 @@
+/*
+    Create a two dimensional array of integers and display:
+
+    sum of all elements of each column
+    sum of all elements of each row
+
+ */
+
 package JavaAssignment1;
 public class JavaQ4 {
 
