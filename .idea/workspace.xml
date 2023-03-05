@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72b6b1c-f66b-4408-9a4c-c97ae4001c9c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/Engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/Enum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/FactoryPatternMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/Profession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/ProfessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/Ques2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/SingletonClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/SingletonMainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/WordCountFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionAssignment/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionAssignment/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionAssignment/EmployeeHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionAssignment/EmployeeHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionAssignment/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionAssignment/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionAssignment/SpecialStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionAssignment/SpecialStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/BankMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/BankMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/ClassNotFoundExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/ClassNotFoundExp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/CustomException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/TryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/TryCatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,19 +65,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -96,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677939798528</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1677940840594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677940840594</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
