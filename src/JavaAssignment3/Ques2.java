@@ -1,44 +1,106 @@
 package JavaAssignment3;
 
-import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-public class Ques2 extends User{
-    public static void main(String[] args) throws IOException {
-        Scanner scan = new Scanner(System.in);
-        List<User> userlist = new ArrayList<>();
-        FileWriter file = new FileWriter("/home/mansi/userfile.txt");
-        BufferedWriter br = new BufferedWriter(file);
 
-        while (true) {
-            User u= new User();
-            userlist.add(u);
-            System.out.print("Enter First Name=");
-            u.firstName = scan.nextLine();
-            br.append("First Name: "+u.firstName);
-            br.newLine();
-            System.out.print("Enter Last Name=");
-            u.lastName = scan.next();
-            br.append("last Name: "+u.lastName);
-            br.newLine();
-            System.out.print("Enter age=");
-            u.age = scan.next();
-            br.append("Age: "+u.age);
-            br.newLine();
-            System.out.print("enter Phone_No=");
-            u.phoneNo = scan.next();
-            br.append("Phone No: "+u.phoneNo);
-            br.newLine();
-            br.newLine();
-            System.out.println("Do you want to continue creating users? (Type QUIT to exit or YES for Continue)");
-            String txt = scan.next();
-            if ("QUIT".equalsIgnoreCase(txt)) {
+
+public class Ques2{
+
+    private String firstName;
+    private String lastName;
+    private int age;
+    private int phoneNo;
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getPhoneNo() {
+        return phoneNo;
+    }
+
+    public void setPhoneNo(int phoneNo) {
+        this.phoneNo = phoneNo;
+    }
+
+    public String output(){
+        return "First Name: "+firstName+"|"+"Last Name: "+lastName+"|"+ "Age: "+age+"|"+"Phone No: "+phoneNo;
+    }
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        FileWriter write=null;
+        try
+        {
+            write = new FileWriter("users.txt", true);
+        }
+        catch(IOException e)
+        {
+            e.printStackTrace();
+        }
+        while(true)
+        {
+            System.out.println("Enter your first name: ");
+            String fName= scan.next();
+            System.out.println("Enter your last name ");
+            String lName= scan.next();
+            System.out.println("Enter your age ");
+            int age= scan.nextInt();
+            System.out.println("Enter your phone number");
+            int phoneNo = scan.nextInt();
+            Ques2 u = new Ques2();
+            u.firstName=fName;
+            u.lastName=lName;
+            u.age=age;
+            u.phoneNo = phoneNo;
+            try
+            {
+                write.write(u.output() + "\n");
+                write.flush();
+            }
+            catch (IOException e)
+            {
+                e.printStackTrace();
+            }
+
+            System.out.println("Do you want to continue creating users ?");
+            System.out.println("If not, type Quit");
+            String input = scan.next();
+
+            if(input.equalsIgnoreCase("Quit"))
+            {
                 break;
             }
         }
-        br.close();
+        try
+        {
+            write.close();
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
     }
+
+
 }

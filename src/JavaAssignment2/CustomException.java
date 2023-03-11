@@ -8,7 +8,7 @@ public class CustomException {
             try {
                 throw new MyException("Custom exception has been occured");
             } catch(MyException e) {
-                System.out.println(e);
+                System.out.println(e.getMessage());
             }
         }
 }

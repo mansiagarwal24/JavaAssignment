@@ -5,19 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72b6b1c-f66b-4408-9a4c-c97ae4001c9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/Engineer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/Enum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/FactoryPatternMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/Profession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/ProfessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/Ques2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/SingletonClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/SingletonMainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAssignment3/WordCountFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FeaturesPart2/FunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FeaturesPart2/OptionalQ4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FeaturesPart2/Ques2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FeaturesPart2/Ques5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FeaturesPart2/Ques6a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FeaturesPart2/Ques6b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FeaturesPart2/StreamQues3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8Features/ConstructorReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8Features/MethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8Features/MultipleInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8Features/ques1A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionAssignment/EmployeeHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionAssignment/EmployeeHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionAssignment/SpecialStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionAssignment/Ques3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAssignment1/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment1/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/BOI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/BOI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/BankMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/BankMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/ClassNotFoundExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/ClassNotFoundExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/CustomException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/ICICI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/ICICI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/SBI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/SBI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/TryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/TryCatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAssignment3/Enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment3/Enum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAssignment3/Ques2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment3/Ques2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAssignment3/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAssignment3/WordCountFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment3/WordCountFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677940840594</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <created>1678039323590</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678039323590</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

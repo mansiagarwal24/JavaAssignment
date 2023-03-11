@@ -1,42 +1,82 @@
 package JavaAssignment2;
 
 public class BOI extends Bank{
-    Bank.bankType bank = Bank.bankType.BOI;
-    private String name;
-    private String headOfficeAddress;
-    private String chairmanName;
-    private int branchCount;
-    private double fdInterestRate;
-    private double personalLoanInterestRate;
-    double homeLoanInterestRate;
+        Bank.bankType bank = Bank.bankType.BOI;
+        String name;
+        String headOfficeAddress;
+        String chairmanName;
+        int branchCount;
+        double fdInterestRate;
+        double personalLoanInterestRate;
+        double homeLoanInterestRate;
 
-    BOI(){
+        BOI()
+        {}
 
-    }
+        public void showBank()
+        {
+            System.out.println("Bank : " + bank);
+        }
 
-    public void showBank(){
-        System.out.println("Bank : " + bank);
-    }
-    public void setBOI_Details(String name, String head_office_address, String chairman_name, int branch_count, double fd_interest_rate, double personal_loan_interest_rate, double home_loan_interest_rate)
-    {
-        this.name = name;
-        this.headOfficeAddress = head_office_address;
-        this.chairmanName = chairman_name;
-        this.branchCount = branch_count;
-        this.fdInterestRate = fd_interest_rate;
-        this.personalLoanInterestRate = personal_loan_interest_rate;
-        this.homeLoanInterestRate = home_loan_interest_rate;
-    }
-    public  void getBOI_Details()
-    {
-        System.out.println("Values entered - " + name + ", " + headOfficeAddress + ", " + chairmanName + ", " +
-                branchCount + ", " + fdInterestRate + ", " + personalLoanInterestRate + ", " + homeLoanInterestRate);
-    }
-    @Override
-    public String toString()
-    {
-        return "Bank - " + bank + ", Name - " + name + ", HeadOfficeAddress - " + headOfficeAddress + ", ChairmanName - " + chairmanName +
-                ", BranchCount - " + branchCount + ", FD Loan Interest rate - " + fdInterestRate +
-                ", Personal Loan Interest Rate - " + personalLoanInterestRate+ ", Home Loan Interest Rate - " + homeLoanInterestRate;
-    }
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String getHeadofficeAddress() {
+            return headOfficeAddress;
+        }
+
+        public void setHeadOfficeAddress(String headOfficeAddress) {
+            this.headOfficeAddress = headOfficeAddress;
+        }
+
+        public String getChairmanName() {
+            return chairmanName;
+        }
+
+        public void setChairmanName(String chairmanName) {
+            this.chairmanName = chairmanName;
+        }
+
+        public int getBranchCount() {
+            return branchCount;
+        }
+
+        public void setBranchCount(int branchCount) {
+            this.branchCount = branchCount;
+        }
+
+        public double getFdInterestRate() {
+            return fdInterestRate;
+        }
+
+        public void setFd_interest_rate(double fdInterestRate) {
+            this.fdInterestRate = fdInterestRate;
+        }
+
+        public double getPersonalLoanInterestRate() {
+            return personalLoanInterestRate;
+        }
+
+        public void setPersonalLoanInterestRate(double personalLoanInterestRate) {
+            this.personalLoanInterestRate = personalLoanInterestRate;
+        }
+
+        public double getHomeLoanInterestRate() {
+            return homeLoanInterestRate;
+        }
+
+        public void setHome_loan_interest_rate(double homeLoanInterestRate) {
+            this.homeLoanInterestRate = homeLoanInterestRate;
+        }
+
+        @Override
+        public String toString()
+        {
+            return "Bank - " + bank + ", Name - " + name + ", HeadOfficeAddress - " + headOfficeAddress + ", ChairmanName - " + chairmanName + ", BranchCount - " + branchCount + ", FD Loan Interest rate - " + fdInterestRate + ", Personal Loan Interest Rate - " + personalLoanInterestRate + ", Home Loan Interest Rate - " + homeLoanInterestRate;
+        }
 }

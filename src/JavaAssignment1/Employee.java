@@ -10,43 +10,41 @@
 package JavaAssignment1;
 
 public class Employee {
-    public String first_name="Mansi";
-    public String last_name="Aggarwal";
-    public int age=22;
-    public String designation="Trainee";
+    private String firstName;
+    private String lastName;
+    private int age;
+    private String designation;
 
     Employee(){
-        this.first_name="mansi";
-        this.last_name="aggarwal";
-        this.age=21;
-        this.designation="trainee";
-        System.out.println("this is a default constructor");
-        System.out.println(first_name+" "+last_name+" "+age+" "+designation);
+        System.out.println("This is a default constructor");
     }
 
-    Employee(String first_name,String last_name,int age,String designation){
-        System.out.println("this is a parameterize constructor");
-        System.out.println(first_name+" "+last_name+" "+" "+age+" "+designation);
+    Employee(String firstName,String lastName,int age,String designation){
+        System.out.println("This is a parameterized constructor");
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.age=age;
+        this.designation=designation;
     }
 
-    public String getfirst_name(){
-        return first_name;
+    public String getFirstName(){
+        return firstName;
     }
-    public String getlast_name(){
-        return last_name;
+    public String getLastName(){
+        return lastName;
     }
-    public int getage(){
+    public int getAge(){
         return age;
     }
-    public String getdesignation(){
+    public String getDesignation(){
         return designation;
     }
 
     public void setFirstName(String firstname){
-        this.first_name=firstname;
+        this.firstName=firstname;
     }
     public void setLastName(String lastname){
-        this.last_name=lastname;
+        this.lastName=lastname;
     }
     public void setAge(int age){
         this.age=age;
@@ -57,8 +55,8 @@ public class Employee {
 
     public String toString(){
         return "Information {"+
-                "First Name : " + first_name + " " +
-                "Last Name : " + last_name + " " +
+                "First Name : " + firstName + " " +
+                "Last Name : " + lastName + " " +
                 "Age : " + age + " " +
                 "Designation : " + designation + " } " ;
 
@@ -71,8 +69,6 @@ public class Employee {
 
         emp1.setAge(23);
         emp1.setDesignation("Engineer");
-        emp2.setDesignation("Software Engineer");
-        emp2.getdesignation();
         System.out.println(emp1.toString());
         System.out.println(emp2.toString());
 

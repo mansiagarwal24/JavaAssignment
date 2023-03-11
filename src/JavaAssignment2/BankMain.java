@@ -13,20 +13,35 @@ public class BankMain {
     {
         SBI sbi = new SBI();
         sbi.showBank();
-        sbi.setSBI_Details("State Bank of India", "Mumbai", "Vikas Singh", 25, 5.6, 10, 7.6);
-        sbi.getSBI_Details();
+        sbi.setName("State Bank of India");
+        sbi.setBranchCount(15);
+        sbi.setChairmanName("Manish Kumar Singh");
+        sbi.setFd_interest_rate(3.45);
+        sbi.setHeadOfficeAddress("New Delhi");
+        sbi.setHome_loan_interest_rate(4.7);
+        sbi.setPersonalLoanInterestRate(6.5);
         System.out.println(sbi.toString());
 
         BOI boi = new BOI();
         boi.showBank();
-        boi.setBOI_Details("Bank of India", "New Delhi", "Sahil Shekhawat", 8, 5.5, 9.5, 10.4);
-        boi.getBOI_Details();
+        boi.setName("Bank of India");
+        boi.setBranchCount(8);
+        boi.setChairmanName("Pranav Gupta");
+        boi.setFd_interest_rate(4.89);
+        boi.setHeadOfficeAddress("Mumbai");
+        boi.setHome_loan_interest_rate(9.6);
+        boi.setPersonalLoanInterestRate(5.78);
         System.out.println(boi.toString());
 
         ICICI icici = new ICICI();
         icici.showBank();
-        icici.setICICI_Details("ICICI", "Noida", "Subash Verma", 18, 10, 4.7, 7);
-        icici.getICICI_Details();
+        icici.setName("ICICI Bank");
+        icici.setBranchCount(12);
+        icici.setChairmanName("Abhishek Singh");
+        icici.setFd_interest_rate(6.0);
+        icici.setHeadOfficeAddress("Noida");
+        icici.setHome_loan_interest_rate(6.5);
+        icici.setPersonalLoanInterestRate(3.78);
         System.out.println(icici.toString());
     }
 }

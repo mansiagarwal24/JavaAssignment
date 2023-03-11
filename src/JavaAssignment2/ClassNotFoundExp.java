@@ -17,6 +17,7 @@ public class ClassNotFoundExp {
         exp.getExcp();
 
         try {
+            //This will generate class not found exception.
             Class.forName("ExceptionClass");
         }
         catch (ClassNotFoundException ex) {

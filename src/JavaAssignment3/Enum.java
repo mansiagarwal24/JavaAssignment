@@ -9,7 +9,6 @@ public class Enum {
         flat(50),
         bungalow(95),
         building(65);
-
         private int price;
 
         typeOfHouse(int p) {

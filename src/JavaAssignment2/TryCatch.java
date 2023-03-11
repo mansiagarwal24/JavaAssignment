@@ -8,6 +8,7 @@ public class TryCatch {
         try{
             int[] array = new int[5];
             array[5]=7;
+            //int c=5/0;
         }
         catch(ArrayIndexOutOfBoundsException e){
             System.out.println("Array Index Out Of BoundsException");
