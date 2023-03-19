@@ -5,44 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72b6b1c-f66b-4408-9a4c-c97ae4001c9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FeaturesPart2/FunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FeaturesPart2/OptionalQ4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FeaturesPart2/Ques2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FeaturesPart2/Ques5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FeaturesPart2/Ques6a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FeaturesPart2/Ques6b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FeaturesPart2/StreamQues3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8Features/ConstructorReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8Features/MethodReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8Features/MultipleInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8Features/ques1A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssignment.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionAssignment/EmployeeHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionAssignment/EmployeeHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionAssignment/SpecialStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionAssignment/Ques3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment1/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment1/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/BOI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/BOI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/BankMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/BankMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/ClassNotFoundExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/ClassNotFoundExp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/CustomException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/ICICI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/ICICI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/SBI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/SBI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment2/TryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment2/TryCatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment3/Enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment3/Enum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment3/Ques2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment3/Ques2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAssignment3/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionAssignment/SortByNameSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionAssignment/SortByNameSalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FeaturesPart2/FunctionalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FeaturesPart2/FunctionalInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAddition9_17/Ques10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAddition9_17/Ques6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAddition9_17/Ques7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAddition9_17/Ques7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaAssignment3/WordCountFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssignment3/WordCountFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultithreadingPart1/Ques1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultithreadingPart1/Ques1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultithreadingPart1/Ques2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultithreadingPart1/Ques2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultithreadingPart1/Ques3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultithreadingPart1/Ques3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultithreadingPart1/Ques4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultithreadingPart1/Ques4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultithreadingPart2/Ques1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultithreadingPart2/Ques1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultithreadingPart2/Ques2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultithreadingPart2/Ques2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultithreadingPart2/Ques3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultithreadingPart2/Ques3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultithreadingPart2/Ques4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultithreadingPart2/Ques4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultithreadingPart2/Ques5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultithreadingPart2/Ques5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,19 +74,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/mansi/IdeaProjects/JavaAssignment"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Exm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultithreadingPart1.Exm" />
+      <module name="JavaAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultithreadingPart1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ques3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultithreadingPart1.Ques3" />
+      <module name="JavaAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultithreadingPart1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Ques3" />
+        <item itemvalue="Application.Exm" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -140,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678039323590</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit">
+      <created>1678548571474</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678548571474</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

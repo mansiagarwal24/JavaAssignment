@@ -13,7 +13,7 @@ public class Ques7 {
         //create list
         System.out.println("This is s a list");
         System.out.println(
-                List.of(1,2,5,7,3,9,10));
+                List.of(1,2,5,7,3,3,9,10));
 
         System.out.println();
 
@@ -27,6 +27,6 @@ public class Ques7 {
         //create map
         System.out.println("This is a map");
         System.out.println(
-                Map.of('A',65,'B',66,'C',67) );
+                Map.of('A',65,'B',66,'C',67,'D',65) );
     }
 }

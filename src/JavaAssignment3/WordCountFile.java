@@ -18,11 +18,9 @@ public class WordCountFile {
 
         File file = new File(filename);
 
-        FileReader fr = null;
-
-        try
+        try( FileReader fr = new FileReader(file) )
         {
-            fr = new FileReader(file);
+
             BufferedReader br = new BufferedReader(fr);
             String line = null;
             int countWord = 0;

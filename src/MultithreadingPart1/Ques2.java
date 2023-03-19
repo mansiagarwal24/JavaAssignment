@@ -1,5 +1,5 @@
 /*
-     3) Use Synchronize method and synchronize block
+     Use Synchronize method and synchronize block
      to enable synchronization between multiple threads trying to access method at same time.
  */
 package MultithreadingPart1;
@@ -39,7 +39,7 @@ class Synchronized implements Runnable{
 }
 
 
-public class Ques3 {
+public class Ques2 {
     public static void main (String[]args) throws InterruptedException {
        Synchronized s = new Synchronized();
         Thread t1 = new Thread (s, "t1");

@@ -16,7 +16,7 @@ public class SortByNameSalary {
         emp.add(new Employee("Shivam",13500,21));
 
 
-        /*Comparator Interface
+        //Comparator Interface
         Comparator<Employee> com= new Comparator<Employee>() {
             @Override
             public int compare(Employee emp1, Employee emp2) {
@@ -29,13 +29,13 @@ public class SortByNameSalary {
         };
         System.out.println("Sort acc to Salary:");
         Collections.sort(emp,com);
-        System.out.println(emp);*/
+        System.out.println(emp);
 
 
         //comparable Interface
-        System.out.println("Sort acc to Name:");
-        Collections.sort(emp);
-        System.out.println(emp);
+//        System.out.println("Sort acc to Name:");
+//        Collections.sort(emp);
+//        System.out.println(emp);
 
     }
 }

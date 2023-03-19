@@ -1,6 +1,9 @@
+/*
+    Write a code to simulate a deadlock in java
+ */
 package MultithreadingPart1;
 
-public class DeadLockExm {
+public class Ques4 {
     public static void main(String[] args) {
 
         Synchronized lock1=new Synchronized();

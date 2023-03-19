@@ -27,7 +27,7 @@ public class Ques10 {
 
 
         //INDENT
-        String indentStr = "Hey!! Where are you from??";
+        String indentStr = "          Hey!! Where are you from??    ";
         System.out.println(indentStr.indent(10));
 
 
@@ -39,7 +39,7 @@ public class Ques10 {
 
 
         //STRIPINDENT
-        String str2 = "this \nstring is used \n\tas a strip indent \t\texample";
+        String str2 = "  this \nstring is used \n\tas a strip indent \t\texample";
         System.out.println(str2.stripIndent());
 
 

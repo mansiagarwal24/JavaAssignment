@@ -9,52 +9,43 @@
  */
 package FeaturesPart2;
 
-interface Consumer{
-    void show(int a);
-}
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
 
-interface Supplier{
-    String print();
-}
 
-interface predicate{
-    boolean check(int x,int y);
-}
+class Person{
+    private String name;
+    public String getName(){
+        return name;
+    }
 
-interface Function{
-    String change(int n);
+    public void setName(String name){
+        this.name =name;
+    }
 }
 
 public class FunctionalInterface {
     public static void main(String[] args) {
 
-        System.out.println("this is a predicate function");
-        predicate pred=(a,b)->{
-            return a>b;
-        };
-        System.out.println(pred.check(2,6));
-        System.out.println();
+        //PREDICATE
+        Predicate<String> checkLength = (str)->str.length()>5;
+        System.out.println(checkLength.test("HelloWorld"));
 
+        //CONSUMER
+        Person p=new Person();
+        Consumer<Person> setname=t->t.setName("Mansi");
+        setname.accept(p);
+        System.out.println(p.getName());
 
-        System.out.println("this is a consumer function");
-        Consumer con=(a)->{
-            System.out.println("does not return any value");
-        };
-        con.show(4);
-        System.out.println();
+        //FUNCTION
+        Function<String,String> getString=t->t+" Morning";
+        System.out.println(getString.apply("Good"));
 
-        System.out.println("this is a supplier function");
-        Supplier sup=()->{
-            return "it will return string";
-        };
-        System.out.println(sup.print());
-        System.out.println();
-
-        System.out.println("this is a Function function");
-        Function fun=(a)->{
-            return "It will take input as a integer and return String.";
-        };
-        System.out.println(fun.change(5));
+        //SUPPLIER
+        Supplier<Integer> getOutput=()->5;
+        System.out.println(getOutput.get());
 
     }
 
